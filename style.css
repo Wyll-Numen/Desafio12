@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Londrina+Sketch&family=Updock&display=swap');
+</style>
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+p{
+    font-family: caveat;
+    font-size: 3vw;
+}
+
+html, body {
+    background-color: antiquewhite;
+    min-height: 100vh;
+
+}
+
+header{
+    background-color: rgb(37, 37, 37);
+    text-align: center;
+    color: antiquewhite;
+}
+
+header h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 5vw;
+}
+
+header p{
+    padding-bottom: 50px;
+    font-family: 'Courier New';
+    font-size: 2vw;
+}
+
+a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: bolder;
+}
+
+a:hover{
+    color: rgb(108, 108, 245);
+    transition: 0.4s;
+}
+
+footer{
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    padding: 15px;
+}
+
+section{
+
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 1em;
+    padding-left: 30px;
+    font-size: 5vw;
+
+}
+
+section.normal{
+    background-color: antiquewhite;
+}
+
+section.imagem{
+    background-color: rgb(61, 61, 61);
+    color: antiquewhite;
+    box-shadow: inset 8px 8px 33px 10px rgba(26, 25, 25, 0.664);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem p {
+    background-color: rgba(0, 0, 0, 0.582);
+    display: inline-block;
+    padding: 7px;
+    text-shadow: 2px 1px 0px black;
+}
+
+section#img01{
+    background-image: url(imagens/background001.jpg);
+    background-position: right, center;
+    
+}
+
+section#img02{
+    background-image: url(imagens/background002.jpg);
+   
+}
+
