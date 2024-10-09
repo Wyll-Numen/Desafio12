@@ -8,7 +8,8 @@
 
 p{
     font-family: caveat;
-    font-size: 3vw;
+    font-size: 2vw;
+    
 }
 
 html, body {
@@ -18,19 +19,19 @@ html, body {
 }
 
 header{
+    padding-top: 5px;
     background-color: rgb(37, 37, 37);
     text-align: center;
     color: antiquewhite;
 }
 
 header h1{
-    padding-top: 50px;
     font-variant: small-caps;
     font-size: 5vw;
 }
 
 header p{
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     font-family: 'Courier New';
     font-size: 2vw;
 }
@@ -47,7 +48,7 @@ a:hover{
 }
 
 footer{
-    background-color: black;
+    background-color: rgb(37, 37, 37);
     color: antiquewhite;
     text-align: center;
     padding: 15px;
@@ -70,7 +71,7 @@ section.normal{
 section.imagem{
     background-color: rgb(61, 61, 61);
     color: antiquewhite;
-    box-shadow: inset 8px 8px 33px 10px rgba(26, 25, 25, 0.664);
+    box-shadow: inset 15px 15px 30px 0px rgba(26, 25, 25, 0.664);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -79,7 +80,6 @@ section.imagem p {
     background-color: rgba(0, 0, 0, 0.582);
     display: inline-block;
     padding: 7px;
-    text-shadow: 2px 1px 0px black;
 }
 
 section#img01{
